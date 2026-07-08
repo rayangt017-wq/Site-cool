@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Alerte (Démo)</title>
+<style>
+body{
+    background:#111;
+    color:red;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    padding-top:100px;
+}
+h1{font-size:48px;}
+p{font-size:24px;color:white;}
+button{
+    padding:15px 30px;
+    font-size:20px;
+}
+</style>
+</head>
+<body>
+
+<h1>⚠️ DÉMONSTRATION ⚠️</h1>
+<p>Votre appareil a été infecté par 37 virus.</p>
+<p><b>Ceci est une simulation sans aucun danger.</b></p>
+
+<button onclick="alert('Ceci est juste une démonstration. Aucun virus n\\'est présent.')">
+Analyser
+</button>
+
+</body>
+</html>
